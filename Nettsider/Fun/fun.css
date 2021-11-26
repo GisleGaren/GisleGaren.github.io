@@ -1,0 +1,380 @@
+
+header {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+}
+.navigasjon {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigasjon li {
+  font-size: 20px;
+  padding: 20px 0px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.navigasjon li a {
+  padding: 9px 25px;
+  transition: all 0.5s;
+  color: white;
+  text-decoration: none;
+  border: solid 1px;
+  border-radius: 50px;
+  border-color: rgba(0, 0, 0, 0);
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navigasjon li a:hover {
+  border: solid 1px;
+  border-color: rgba(22, 22, 22, 0.8);
+  border-radius: 50px;
+  background-color: white;
+  color: #000;
+}
+
+/*Fun Page */
+.flex-container1 {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background: rgba(105, 105, 105, 0.4);
+  color: white;
+}
+h2 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin: 0 0 3% 0;
+
+}
+.flex-container1 > div {
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+}
+.flex-container1 > div > a {
+  transition: 0.5s;
+  color: white;
+  font-weight: 650;
+  text-decoration: none;
+}
+.flex-container1 > div > a:hover {
+  font-size: 110%;
+  border-bottom: 4px;
+}
+.logoimg {
+  font-size: 100% !important;
+}
+
+/* Hamburger menu */
+.icon {
+  display: none;
+  cursor: pointer;
+}
+.out {
+  height: 210px;
+  width: 130px;
+  display: none;
+  background-color: lightgray;
+  box-shadow: 0 1px 1px 1px rgba(194, 190, 188, 0.476);
+  z-index: 1;
+  position: absolute;
+  right: 50%;
+  left: 46%;
+}
+.out > div {
+  margin: 6px;
+}
+.out > div > a {
+  text-decoration: none;
+  color: black;
+}
+.out > div:hover {
+  background-color: gray;
+}
+.hamburger:hover .out {
+  display: block;
+}
+
+/* End of hamburger menu */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+html {
+  height: 100%;
+}
+/*Farge på pil til topp*/
+i {
+  color: #343a40;
+}
+/*---*/
+body {
+  height: 100%;
+  font-size: 18px;
+  line-height: 1.9rem;
+  color: #343a40;
+}
+.back-to-top {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 50px;
+  left: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: black;
+  font-size: 50px;
+}
+.del1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),
+    url(/images/Opening.jpg);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+/*specs for bildebakgrunnene*/
+.del2,
+.del3,
+.del4,
+.del5,
+.del6,
+.del7 {
+  box-shadow: 0 1px 1px 1px rgba(78, 78, 78, 0.6);
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.9;
+ 
+}
+
+.frontp .front {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  top: 0px;
+}
+.frontp {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.tittelt .main {
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 5px;
+}
+.tittelt {
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.part-Opera {
+  top: 100px;
+  right: 0;
+  float: right;
+  text-align: center;
+  width: 48%;
+  margin-top: 4%;
+  padding: 2%;
+  margin-bottom: auto;
+  background-color: white;
+
+}
+.part-frogner {
+  top: 100px;
+  left: 0;
+  float: left;
+  text-align: center;
+  width: 48%;
+  margin-top: 4%;
+  padding: 2%;
+  margin-bottom: auto;
+  background-color: white;
+  overflow: hidden;
+
+}
+.partw {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  box-shadow: 0 1px 1px 1px rgba(194, 190, 188, 1);
+}
+.del2 {
+  background-image: url(/images/Ways.jpg);
+  margin-left: auto;
+  margin-bottom: auto;
+  min-height: 400px;
+  height: fit-content;
+}
+.del2 > * {
+  position: absolute;
+  background-color: rgb(255, 255, 255, 0);
+}
+#slide-box {
+  align-content: left;
+  padding: 2%;
+  width: 44%;
+  overflow: hidden;
+}
+.SliderColumn{
+  overflow: hidden;
+}
+#slideshow {
+  overflow: hidden;
+  align-items: center;
+}
+
+#slideshow figure {
+  position: relative;
+
+  width: 500%;
+  margin: 0;
+  top: 20px;
+  left: 0;
+  animation-name: visit;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+#myimg {
+  width: 20%;
+  float: left;
+  display: block;
+}
+@keyframes visit {
+  0% {
+    left: 0;
+  }
+  10% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  30% {
+    left: -100%;
+  }
+  40% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  60% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  80% {
+    left: -300%;
+  }
+  90% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+.del3 {
+  background-image: url(/images/Frognerparken.jpg);
+  min-height: 400px;
+}
+.del4 {
+  background-image: url(/images/Mat.jpg);
+  min-height: 400px;
+}
+.del4 > * {
+  position: absolute;
+  background-color: rgb(255, 255, 255, 0);
+}
+.del5 {
+  background-image: url(/images/restaurant.jpg);
+  min-height: 400px;
+}
+.del6 {
+  background-image: url(/images/sushi.jpg);
+  height: 400px;
+}
+.del7 {
+  background-image: url(/images/tikka.jpg);
+  height: 400px;
+}
+.partw-footer {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: wheat;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  
+}
+.bottumpart {
+  text-align: center;
+  color: rgb(22, 62, 97);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: bisque;
+}
+
+/* End of Fun Page */
+@media only screen and (max-width: 1000px) {
+  
+  .icon {
+    display: block;
+  }
+  .navigasjon {
+    display: none;
+  }
+  .SliderColumn {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  #slide-box{
+    width:fit-content;
+    padding: 2% 0 2% 0;
+  }
+  .part-Opera{
+    width:fit-content;
+  }
+  .part-frogner{
+    width:fit-content;
+  }
+  .bilde {
+    height: auto;
+    width: 80%;
+  }
+  .out {
+    right: 50%;
+    left: 1%;
+    height: 220px;
+  }
+}
