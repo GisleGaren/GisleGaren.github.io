@@ -97,32 +97,49 @@ a:hover {
 
 
 
-<div id="intro-javi" style="margin-top: 8vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
+<div id="intro-javi" style="margin-top: 8vh; margin-bottom: 5vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
   <h2>1. Introduction: Meet Javi</h2>
   <p>Short story: Javi is a delivery driver in NYC, navigating a city full of risks. This sets up the context for your visual storytelling.</p>
 </div>
 
-<div id="dangerous-hours" style="margin-top: 8vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
+# Add your plot here
+
+<div id="dangerous-hours" style="margin-top: 8vh; margin-bottom: 5vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
   <h2>2. Dangerous Hours</h2>
   <p>Use an interactive bar chart or heatmap showing collisions by hour and day. Great candidates: Plotly or Altair.</p>
 </div>
 
-<div id="what-hits-javi" style="margin-top: 8vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
+# Add your plot here
+
+<div id="dangerous-places" style="margin-top: 8vh; margin-bottom: 5vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
+  <h2>3. Dangerous Places</h2>
+  <p>Another interactive plot showing maybe boroughs and its fataility rates?.</p>
+</div>
+
+# Add your plot here
+
+<div id="what-hits-javi" style="margin-top: 8vh; margin-bottom: 5vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
   <h2>4. What Hits Javi?</h2>
   <p>Show top vehicle types involved in collisions using a pie or bar chart.</p>
 </div>
 
-<div id="who-gets-hurt" style="margin-top: 8vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
+# Add your plot here
+
+<div id="who-gets-hurt" style="margin-top: 8vh; margin-bottom: 5vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
   <h2>5. Who Gets Hurt?</h2>
   <p>Charts to explore injury demographics by age, sex, and transport mode (pedestrian, cyclist, etc).</p>
 </div>
 
-<div id="dangerous-combos" style="margin-top: 8vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
+# Add your plot here
+
+<div id="dangerous-combos" style="margin-top: 8vh; margin-bottom: 5vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
   <h2>6. Most Dangerous Combos</h2>
   <p>Pairings like “Taxis injure cyclists most between 6–9pm.” Consider using a story tableau with filtered charts.</p>
 </div>
 
-<div id="conclusion" style="margin-top: 8vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
+# Add your plot here
+
+<div id="conclusion" style="margin-top: 8vh; margin-bottom: 5vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
   <h2>7. Conclusion: Can Javi Make It?</h2>
   <p>Summarize patterns to offer takeaways like avoiding certain hours or locations.</p>
 </div>
@@ -136,10 +153,6 @@ a:hover {
   </p>
 </div>
 -->
-
-# hehe
-
-# hehe
 
 ### References
 
