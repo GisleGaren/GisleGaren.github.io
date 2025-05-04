@@ -111,6 +111,14 @@ a:hover {
 
 # Add your plot here
 
+<iframe 
+    src="/assets/dangerous_hours_plot.html" 
+    width="1000" 
+    height="700"
+    frameborder="0"
+    scrolling="no"
+></iframe>
+
 <div id="dangerous-places" style="margin-top: 8vh; margin-bottom: 5vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
   <h2>3. Dangerous Places</h2>
   <p>Interactive Map of Collision Locations like the one we had in assignment 2.</p>
