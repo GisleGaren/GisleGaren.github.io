@@ -1,0 +1,12 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+vehicle_crashes_cleaned.csv
+vehicle_crashes_vehicle_cleaned.csv
+vehicle_crashes_info.zip
+vehicle_crashes_person.zip
+vehicle_crashes_vehicle.zip
+vehicle_crashes_person_cleaned.csv
