@@ -114,12 +114,13 @@ a:hover {
 </div>
 
 <iframe 
-  src="/assets/dangerous_hours_plot.html" 
+  src="{{ '/assets/dangerous_hours_plot.html' | relative_url }}" 
   width="1000" 
   height="700"
   frameborder="0"
   scrolling="no"
 ></iframe>
+
 
 <div style="margin-top: 20px;">
   <p>
