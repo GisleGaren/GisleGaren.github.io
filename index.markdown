@@ -106,11 +106,10 @@ a:hover {
 
 <div id="dangerous-hours" style="margin-top: 8vh; margin-bottom: 5vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
   <h2>2. Dangerous Hours</h2>
-  <p>Use an interactive bar chart or heatmap showing collisions by hour and day. Great candidates: Plotly or Altair.</p>
-</div>
+  <p> The interactive bar chart visualizes the frequency of vehicle collisions involving Uber drivers in New York City, broken down by hour of the day and day of the week. 
+  Each hour from midnight (00:00) to 11 PM (23:00) is shown along the x-aksis and the y-axis represents the total number of recorded collisions. The bars are grouped and color-coded by day of the week, helping highlight temporal patterns in collision risk. </p>
 
-The interactive bar chart visualizes the frequency of vehicle collisions involving Uber drivers in New York City, broken down by hour of the day and day of the week. 
-Each hour from midnight (00:00) to 11 PM (23:00) is shown along the x-aksis and the y-axis represents the total number of recorded collisions. The bars are grouped and color-coded by day of the week, helping highlight temporal patterns in collision risk. 
+</div>
 
 # Add your plot here 
 
@@ -122,7 +121,10 @@ Each hour from midnight (00:00) to 11 PM (23:00) is shown along the x-aksis and 
     scrolling="no"
 ></iframe>
 
-Collisions peaks tend to occur during ruch hours (7-9 AM and 4-7 PM), especially on weekdays. Fridays often show higher evening collisions, likely due to increased ride demand and traffic congestion. In the weekends, while overall low, some late-night risks tied to nightlife hours (1-3 AM).  
+<div>
+  Collisions peaks tend to occur during rush hours (7-9 AM and 4-7 PM), especially on weekdays. Fridays often show higher evening collisions, likely due to increased ride demand and traffic congestion. On weekends, while overall low, some late-night risks are tied to nightlife hours (1-3 AM).
+</div>
+ 
 
 <div id="dangerous-places" style="margin-top: 8vh; margin-bottom: 5vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
   <h2>3. Dangerous Places</h2>
