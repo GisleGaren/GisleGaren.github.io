@@ -5,18 +5,20 @@ from datetime import datetime
 import os
 
 # Get the current working directory (Jupyter-compatible)
-current_dir = os.getcwd()
+current_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Then continue as normal
 # Update the path to the correct location of the parquet file
 parquet_path = os.path.join(current_dir, 'optimized_datasets', 'vehicle_crashes_cleaned.parquet')
 
+# Check if the parquet file exists
+if not os.path.exists(parquet_path):
+    raise FileNotFoundError(f"Parquet file not found at {parquet_path}")
 
 # Read the parquet file
 df = pd.read_parquet(parquet_path)
 
 # Convert CRASH TIME to datetime and combine with CRASH DATE
-df['timestamp'] = df['CRASH DATE'] + pd.to_timedelta(df['CRASH TIME'].str.split(':').str[0].astype(int), unit='h')
+df['timestamp'] = pd.to_datetime(df['CRASH DATE']) + pd.to_timedelta(df['CRASH TIME'].str.split(':').str[0].astype(int), unit='h')
 df['hour'] = df['timestamp'].dt.hour
 df['day_of_week'] = df['timestamp'].dt.day_name()
 
@@ -50,7 +52,7 @@ fig.update_layout(
 )
 
 # Create the 'assets' directory inside the GitHub Pages site if it doesn't exist
-assets_dir = os.path.join(current_dir, 'GisleGaren.github.io', 'assets')
+assets_dir = os.path.join(current_dir, 'assets')
 os.makedirs(assets_dir, exist_ok=True)
 
 # Define output HTML path
