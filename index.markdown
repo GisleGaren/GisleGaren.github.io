@@ -115,14 +115,13 @@ a:hover {
 
 <iframe 
   src="{{ '/assets/dangerous_hours_plot.html' | relative_url }}" 
-  width="1000" 
-  height="700"
+  width="1200" 
+  height="600"
   frameborder="0"
   scrolling="no"
 ></iframe>
 
-
-<div style="margin-top: 20px;">
+<div style="margin-top: 5vh;">
   <p>
     Collision peaks tend to occur during rush hours (7–9 AM and 4–7 PM), especially on weekdays.
     Fridays often show higher evening collisions, likely due to increased ride demand and traffic congestion.
