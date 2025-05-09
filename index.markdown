@@ -68,8 +68,8 @@ a:hover {
       </a>
     </li>
     <li style="margin-bottom: 8px;">
-      <a href="#what-hits-javi" style="color: black;">
-        <strong>4. 🚗</strong> What Hits Javi?
+      <a href="#vehicle-info" style="color: black;">
+        <strong>4. 🚗</strong> What share of vehicles are involved in the crashes?
       </a>
     </li>
     <li style="margin-bottom: 8px;">
@@ -78,8 +78,8 @@ a:hover {
       </a>
     </li>
     <li style="margin-bottom: 8px;">
-      <a href="#dangerous-combos" style="color: black;">
-        <strong>6. ⚠️</strong> Most Dangerous Combos
+      <a href="#bike-danger" style="color: black;">
+        <strong>6. ⚠️</strong> Where should Javi be careful on his bike?
       </a>
     </li>
     <li style="margin-bottom: 8px;">
@@ -97,16 +97,52 @@ a:hover {
 
 
 
-<div id="intro-javi" style="margin-top: 8vh; margin-bottom: 5vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
-  <h2>1. Introduction: Meet Javi</h2>
-  <p>Short story: Javi is a delivery driver in NYC, navigating a city full of risks. This sets up the context for your visual storytelling.</p>
+<div id="intro-javi" style="
+  margin: 8vh auto 5vh auto;
+  max-width: 800px;
+  background: linear-gradient(135deg, #fef6e4 0%, #fcd5ce 100%);
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid #e0b1a0;
+  font-family: 'Georgia', serif;
+">
+  <h2 style="
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #49111c;
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: 0.5px;
+  ">
+    1. Introduction: Meet Javi
+  </h2>
+  <p style="font-size: 1.2rem; color: #3d1f23; line-height: 1.6;">
+    Javi is a delivery driver navigating the bustling streets of NYC — dodging traffic, balancing time, and facing unexpected risks every day. This section introduces his world and sets the stage for the story ahead.
+  </p>
 </div>
 
 # Add your plot here
 
-<div id="dangerous-hours" style="margin-top: 8vh; margin-bottom: 5vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
-  <h2>2. Dangerous Hours</h2>
-  <p>
+<div id="dangerous-hours" style="
+  margin: 8vh auto 5vh auto;
+  max-width: 800px;
+  background: linear-gradient(135deg, #fef6e4 0%, #fcd5ce 100%);
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid #e0b1a0;
+  font-family: 'Georgia', serif;
+">
+  <h2 style="
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #49111c;
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: 0.5px;
+  ">2. Dangerous Hours</h2>
+  <p style="font-size: 1.2rem; color: #3d1f23; line-height: 1.6;">
     The interactive bar chart visualizes the frequency of vehicle collisions involving Uber drivers in New York City, broken down by hour of the day and day of the week.
     Each hour from midnight (00:00) to 11 PM (23:00) is shown along the x-axis, and the y-axis represents the total number of recorded collisions.
     The bars are grouped and color-coded by day of the week, helping highlight temporal patterns in collision risk.
@@ -131,16 +167,48 @@ a:hover {
 
  
 
-<div id="dangerous-places" style="margin-top: 8vh; margin-bottom: 5vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
-  <h2>3. Dangerous Places</h2>
-  <p>Interactive Map of Collision Locations like the one we had in assignment 2.</p>
+<div id="dangerous-places" style="
+  margin: 8vh auto 5vh auto;
+  max-width: 800px;
+  background: linear-gradient(135deg, #fef6e4 0%, #fcd5ce 100%);
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid #e0b1a0;
+  font-family: 'Georgia', serif;
+">
+  <h2 style="
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #49111c;
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: 0.5px;
+  ">3. Dangerous Places</h2>
+  <p style="font-size: 1.2rem; color: #3d1f23; line-height: 1.6;">Interactive Map of Collision Locations like the one we had in assignment 2.</p>
 </div>
 
 # Add your plot here
 
-<div id="what-hits-javi" style="margin-top: 8vh; margin-bottom: 5vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
-  <h2>4. What share of vehicles are involved in the crashes?</h2>
-  <p>Show top vehicle types involved in collisions using a pie or bar chart.</p>
+<div id="vehicle-info" style="
+  margin: 8vh auto 5vh auto;
+  max-width: 800px;
+  background: linear-gradient(135deg, #fef6e4 0%, #fcd5ce 100%);
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid #e0b1a0;
+  font-family: 'Georgia', serif;
+">
+  <h2 style="
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #49111c;
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: 0.5px;
+  ">4. What share of vehicles are involved in the crashes?</h2>
+  <p style="font-size: 1.2rem; color: #3d1f23; line-height: 1.6;">Show top vehicle types involved in collisions using a pie or bar chart.</p>
 </div>
 
 <img src="/images/pieChartVehicleShare.png" alt="Top Vehicle Types in Collisions" style="width: 35vw; display: block; margin: auto; border-radius: 10px;" />
@@ -149,22 +217,88 @@ a:hover {
   <p>As we can see, the proportion</p>
 </div>
 
-<img src="/images/vehicleContributingFactors.png" alt="Top Vehicle Types in Collisions" style="width: 40vw; display: block; margin: auto; border-radius: 10px;" />
-
-<div>
-  <p>As we can see...</p>
+<!-- SUV -->
+<div class="image-block" style="margin-bottom: 40px;">
+  <img src="/images/suvContributingFactors.png" 
+       alt="SUV Contributing Factors" 
+       style="width: 40vw; display: block; margin: auto; border-radius: 10px;" />
+       <p>Ayy Lmao</p>
 </div>
 
-<div id="who-gets-hurt" style="margin-top: 8vh; margin-bottom: 5vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
-  <h2>5. Who Gets Hurt?</h2>
-  <p>Charts to explore injury demographics by age, sex, and transport mode (pedestrian, cyclist, etc).</p>
+<!-- Sedan -->
+<div class="image-block" style="margin-bottom: 40px;">
+  <img src="/images/sedanContributingFactors.png" 
+       alt="Sedan Contributing Factors" 
+       style="width: 40vw; display: block; margin: auto; border-radius: 10px;" />
+       <p>Ayy Lmao</p>
+</div>
+
+<!-- Bicycle -->
+<div class="image-block" style="margin-bottom: 40px;">
+  <img src="/images/bikeContributingFactors.png" 
+       alt="Bicycle Contributing Factors" 
+       style="width: 40vw; display: block; margin: auto; border-radius: 10px;" />
+       <p>Ayy Lmao</p>
+</div>
+
+<!-- Motorcycle -->
+<div class="image-block" style="margin-bottom: 40px;">
+  <img src="/images/motorbikeContributingFactors.png" 
+       alt="Motorcycle Contributing Factors" 
+       style="width: 40vw; display: block; margin: auto; border-radius: 10px;" />
+      <p>Ayy Lmao</p>
+</div>
+<!-- Van -->
+<div class="image-block" style="margin-bottom: 40px;">
+  <img src="/images/vanContributingFactors.png" 
+       alt="Van Contributing Factors" 
+       style="width: 40vw; display: block; margin: auto; border-radius: 10px;" />
+  <p>Ayy Lmao</p>
+</div>
+
+
+<div id="who-gets-hurt" style="
+  margin: 8vh auto 5vh auto;
+  max-width: 800px;
+  background: linear-gradient(135deg, #fef6e4 0%, #fcd5ce 100%);
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid #e0b1a0;
+  font-family: 'Georgia', serif;
+">
+  <h2 style="
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #49111c;
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: 0.5px;
+  ">5. Who Gets Hurt?</h2>
+  <p style="font-size: 1.2rem; color: #3d1f23; line-height: 1.6;">Charts to explore injury demographics by age, sex, and transport mode (pedestrian, cyclist, etc).</p>
 </div>
 
 # Add your plot here
 
-<div id="dangerous-combos" style="margin-top: 8vh; margin-bottom: 5vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
-  <h2>6. Most Dangerous Combos</h2>
-  <p>Pairings like “Taxis injure cyclists most between 6–9pm.” Consider using a story tableau with filtered charts.</p>
+<div id="bike-danger" style="
+  margin: 8vh auto 5vh auto;
+  max-width: 800px;
+  background: linear-gradient(135deg, #fef6e4 0%, #fcd5ce 100%);
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid #e0b1a0;
+  font-family: 'Georgia', serif;
+">
+  <h2 style="
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #49111c;
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: 0.5px;
+  ">6. Where should Javi be careful on his bike?</h2>
+  <p style="font-size: 1.2rem; color: #3d1f23; line-height: 1.6;">Ayy Lmao</p>
 </div>
 
 <iframe
@@ -176,9 +310,25 @@ a:hover {
 ></iframe>
 
 
-<div id="conclusion" style="margin-top: 8vh; margin-bottom: 5vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
-  <h2>7. Conclusion: Can Javi Make It?</h2>
-  <p>Summarize patterns to offer takeaways like avoiding certain hours or locations.</p>
+<div id="conclusion" style="
+  margin: 8vh auto 5vh auto;
+  max-width: 800px;
+  background: linear-gradient(135deg, #fef6e4 0%, #fcd5ce 100%);
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid #e0b1a0;
+  font-family: 'Georgia', serif;
+">
+  <h2 style="
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #49111c;
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: 0.5px;
+  ">7. Conclusion: Can Javi Make It?</h2>
+  <p style="font-size: 1.2rem; color: #3d1f23; line-height: 1.6;">Summarize patterns to offer takeaways like avoiding certain hours or locations.</p>
 </div>
 
 <!--
