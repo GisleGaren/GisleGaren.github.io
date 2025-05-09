@@ -167,7 +167,14 @@ a:hover {
   <p>Pairings like “Taxis injure cyclists most between 6–9pm.” Consider using a story tableau with filtered charts.</p>
 </div>
 
-# Add your plot here
+<iframe
+  src="{{ '/assets/cyclist_map.html' | relative_url }}" 
+  width="1000px"
+  height="600px"
+  style="border:none;"
+  loading="lazy"
+></iframe>
+
 
 <div id="conclusion" style="margin-top: 8vh; margin-bottom: 5vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
   <h2>7. Conclusion: Can Javi Make It?</h2>
