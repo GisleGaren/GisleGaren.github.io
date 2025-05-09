@@ -139,11 +139,21 @@ a:hover {
 # Add your plot here
 
 <div id="what-hits-javi" style="margin-top: 8vh; margin-bottom: 5vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
-  <h2>4. What Hits Javi?</h2>
+  <h2>4. What share of vehicles are involved in the crashes?</h2>
   <p>Show top vehicle types involved in collisions using a pie or bar chart.</p>
 </div>
 
-# Add your plot here
+<img src="/images/pieChartVehicleShare.png" alt="Top Vehicle Types in Collisions" style="width: 35vw; display: block; margin: auto; border-radius: 10px;" />
+
+<div>
+  <p>As we can see, the proportion</p>
+</div>
+
+<img src="/images/vehicleContributingFactors.png" alt="Top Vehicle Types in Collisions" style="width: 40vw; display: block; margin: auto; border-radius: 10px;" />
+
+<div>
+  <p>As we can see...</p>
+</div>
 
 <div id="who-gets-hurt" style="margin-top: 8vh; margin-bottom: 5vh; background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
   <h2>5. Who Gets Hurt?</h2>
