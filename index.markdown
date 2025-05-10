@@ -95,7 +95,7 @@ a:hover {
     </li>
     <li style="margin-bottom: 8px;">
       <a href="#vehicle-info" style="color: black;">
-        <strong>4. 🚗</strong> What share of vehicles are involved in the crashes?
+        <strong>4. 🚗</strong> Vehicles Involved and Causes of Crash
       </a>
     </li>
     <li style="margin-bottom: 8px;">
@@ -307,7 +307,8 @@ a:hover {
 # Add your plot here
 
 <div id="bike-danger" style="
-  margin: 8vh auto 5vh auto;
+  margin-top: 7vh;
+  margin-bottom: 5vh;
   max-width: 800px;
   background: linear-gradient(135deg, #fef6e4 0%, #fcd5ce 100%);
   padding: 40px 30px;
@@ -323,9 +324,11 @@ a:hover {
     color: #49111c;
     font-family: 'Playfair Display', Georgia, serif;
     letter-spacing: 0.5px;
-  ">6. Where should Javi be careful on his bike?</h2>
-  <p style="font-size: 1.2rem; color: #3d1f23; line-height: 1.6;">Ayy Lmao</p>
+  ">6. Where Should Javi Be Careful On His Bike?</h2>
+  <p style="font-size: 1.2rem; color: #3d1f23; line-height: 1.6;">Javi, like many others delivers food on his bike, it's good exercise, good for the environment and it's relatively affordable in maintenance costs. Where in the city should he especially be careful when riding his bike?</p>
 </div>
+
+<h3 style="font-size: 1rem; font-family: 'Georgia', serif; text-align: center;">Below is an interactive map showing places in New York with cyclist injuries of at least 2 or a death. There is also a toggle for a heatmap to see a smoother transition in concentration for bicycle incidents. </h3>
 
 <iframe
   src="{{ '/assets/cyclist_map.html' | relative_url }}" 
