@@ -143,7 +143,7 @@ a:hover {
   </h2>
   <p style="font-size: 1.2rem; color: #3d1f23; line-height: 1.6;">
     We at Sune Analytics found this on the frontpage of this newspaper and we sympathize with his story. 
-    We decided to take matters into our own hands by analyzing traffic data in New York City to help deliver people like Javi navigate through its busy streets!
+    We decided to take matters into our own hands by analyzing collision data in New York City to help delivery people like Javi navigate through its busy streets!
   </p>
 </div>
 
