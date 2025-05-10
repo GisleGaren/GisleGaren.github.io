@@ -95,8 +95,6 @@ a:hover {
   </ul>
 </div>
 
-
-
 <div id="intro-javi" style="
   margin: 8vh auto 5vh auto;
   max-width: 800px;
@@ -166,8 +164,6 @@ a:hover {
   </p>
 </div>
 
- 
-
 <div id="dangerous-places" style="
   margin: 8vh auto 5vh auto;
   max-width: 800px;
@@ -208,22 +204,25 @@ a:hover {
     color: #49111c;
     font-family: 'Playfair Display', Georgia, serif;
     letter-spacing: 0.5px;
-  ">4. What share of vehicles are involved in the crashes?</h2>
-  <p style="font-size: 1.2rem; color: #3d1f23; line-height: 1.6;">Show top vehicle types involved in collisions using a pie or bar chart.</p>
+  ">4. Vehicles Involved and Causes of Crash</h2>
+  <p style="font-size: 1.2rem; color: #3d1f23; line-height: 1.6;">When traversing through the city, what are the main vehicles involved in the collisions and what were the main factors that caused them?</p>
 </div>
 
 <img src="/images/pieChartVehicleShare.png" alt="Top Vehicle Types in Collisions" style="width: 35vw; display: block; margin: auto; border-radius: 10px;" />
 
 <div>
-  <p>As we can see, the proportion</p>
+  <p>From the pie chart, we can observe that most vehicles registered as collision data are motor vehicles - primarily SUVs and sedans. For Javi on his bike, this constitutes a relatively small proportion of registered collisions. The keyword here is registered, as a significant proportion of bicycle accidents go unreported to the police[1].</p>
+  <p>According to the American Community Survey from 2017 - 2021, bicycles constituted 1.4% of the commute, whilst cars, trucks or vans constituted 26.8% of the commute [2]. With only SUVs and Sedans themselves cumulatively being 75% of all accidents in our pie chart, means that they are grossly over represented in terms of their proportion of crashes.</p>
+  <p>Javi explicitly mentions that he is considering other forms of transportation. What does he especially need to take into consideration when operating other vehicle types?</p>
 </div>
 
+<h3>Biggest contributions to collisions based on vehicle</h3>
 <!-- SUV -->
 <div class="image-block" style="margin-bottom: 40px;">
   <img src="/images/suvContributingFactors.png" 
        alt="SUV Contributing Factors" 
        style="width: 40vw; display: block; margin: auto; border-radius: 10px;" />
-       <p>Ayy Lmao</p>
+       <p>A common theme of driver inattention and distractions seem to be standard amongst all modes of transport. Being patient by yielding when in douby and keep distance from other vehicles when driving is key with avoiding accidents in SUVs.</p>
 </div>
 
 <!-- Sedan -->
@@ -231,7 +230,7 @@ a:hover {
   <img src="/images/sedanContributingFactors.png" 
        alt="Sedan Contributing Factors" 
        style="width: 40vw; display: block; margin: auto; border-radius: 10px;" />
-       <p style="text-align:center;">Ayy Lmao</p>
+       <p style="text-align:center;">Very similiar to the SUV factors as both vehicles operate in a similiar manner.</p>
 </div>
 
 <!-- Bicycle -->
@@ -239,7 +238,7 @@ a:hover {
   <img src="/images/bikeContributingFactors.png" 
        alt="Bicycle Contributing Factors" 
        style="width: 40vw; display: block; margin: auto; border-radius: 10px;" />
-       <p>Ayy Lmao</p>
+       <p>Failing to yield on a bike and pedestrian errors often go hand in hand as uncertainty around yielding leads to incidents with pedestrians. For Javi, giving proper signals, being predictable and yielding when in doubt should especially be highlighted.</p>
 </div>
 
 <!-- Motorcycle -->
@@ -247,16 +246,16 @@ a:hover {
   <img src="/images/motorbikeContributingFactors.png" 
        alt="Motorcycle Contributing Factors" 
        style="width: 40vw; display: block; margin: auto; border-radius: 10px;" />
-      <p>Ayy Lmao</p>
+      <p>If on a motorcycle, be especially careful with lane usage as well as speeds.</p>
 </div>
+
 <!-- Van -->
 <div class="image-block" style="margin-bottom: 40px;">
   <img src="/images/vanContributingFactors.png" 
        alt="Van Contributing Factors" 
        style="width: 40vw; display: block; margin: auto; border-radius: 10px;" />
-  <p>Ayy Lmao</p>
+  <p>Backing unsafely in a van makes sense as vans often have large blindspots and are filled with cargo making it difficult to see from behind. Drowsyness and fatigue was an interesting one, perhaps indicating that van drivers usually drive for long distances transporting goods, thereby contributing to fatigue?</p>
 </div>
-
 
 <div id="who-gets-hurt" style="
   margin: 8vh auto 5vh auto;
@@ -344,10 +343,8 @@ a:hover {
 
 ### References
 
-[1] Sheppard, H. (2016). *Car thefts decrease statewide*. East Bay Times. [URL](https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/)
+[1] https://www.sciencedirect.com/science/article/pii/S0001457517303391
 
-[2] Tsai, J. (2022). *One in three homes in this San Francisco neighborhood lives below the poverty line*. The San Francisco Standard. [URL](https://sfstandard.com/2022/12/08/san-francisco-neighborhood-new-census-data-maps/)
+[2] https://a816-dohbesp.nyc.gov/IndicatorPublic/data-explorer/walking-driving-and-cycling/?id=2415#display=summary
 
-[3] Swan, Rachel, and Adriana Rezal. "These Neighborhoods Are San Francisco's Car-Theft Hot Spots." San Francisco Chronicle, San Francisco Chronicle, 28 Sept. 2023, [URL](https://www.sfchronicle.com/crime/article/car-theft-san-francisco-18387300.php)
-
-[4] Kaplan, Ben. "2023 WE San Francisco Auto Theft Report." WE San Francisco, 1 Jan. 2024, www.wesanfrancisco.org/data/2023-car-theft. [URL](https://www.wesanfrancisco.org/data/2023-car-theft)
+[3] Sheppard, H. (2016). *Car thefts decrease statewide*. East Bay Times. [URL](https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/)
