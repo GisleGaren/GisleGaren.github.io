@@ -32,6 +32,32 @@ a:hover {
   font-weight: bold;
 }
 
+.image-block p {
+  font-size: 1.1rem;
+  color: #3d1f23;
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+  margin-top: 15px;
+  background-color: #fff8f4;
+  padding: 15px 20px;
+  border-left: 4px solid #e07a5f;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.comments {
+  font-size: 1.1rem;
+  color: #3d1f23;
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+  margin-top: 15px;
+  background-color: #fff8f4;
+  padding: 15px 20px;
+  border-left: 4px solid #e07a5f;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
 
 </style>
 
@@ -208,15 +234,15 @@ a:hover {
   <p style="font-size: 1.2rem; color: #3d1f23; line-height: 1.6;">When traversing through the city, what are the main vehicles involved in the collisions and what were the main factors that caused them?</p>
 </div>
 
-<img src="/images/pieChartVehicleShare.png" alt="Top Vehicle Types in Collisions" style="width: 35vw; display: block; margin: auto; border-radius: 10px;" />
+<img src="/images/pieChartVehicleShare.png" alt="Top Vehicle Types in Collisions" style="width: 40vw; display: block; margin: auto; border-radius: 10px;" />
 
-<div>
+<div class="comments" style="margin-bottom:5vh">
   <p>From the pie chart, we can observe that most vehicles registered as collision data are motor vehicles - primarily SUVs and sedans. For Javi on his bike, this constitutes a relatively small proportion of registered collisions. The keyword here is registered, as a significant proportion of bicycle accidents go unreported to the police[1].</p>
   <p>According to the American Community Survey from 2017 - 2021, bicycles constituted 1.4% of the commute, whilst cars, trucks or vans constituted 26.8% of the commute [2]. With only SUVs and Sedans themselves cumulatively being 75% of all accidents in our pie chart, means that they are grossly over represented in terms of their proportion of crashes.</p>
   <p>Javi explicitly mentions that he is considering other forms of transportation. What does he especially need to take into consideration when operating other vehicle types?</p>
 </div>
 
-<h3>Biggest contributions to collisions based on vehicle</h3>
+<h3 style="font-size: 2.2rem; font-family: 'Georgia', serif; text-align: center;">Cause Of Crash For Each Vehicle</h3>
 <!-- SUV -->
 <div class="image-block" style="margin-bottom: 40px;">
   <img src="/images/suvContributingFactors.png" 
