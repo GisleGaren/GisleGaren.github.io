@@ -182,7 +182,7 @@ a:hover {
   scrolling="no"
 ></iframe>
 
-<div style="margin-top: 5vh;">
+<div class="comments" style="margin-top: 5vh;">
   <p>
     Collision peaks tend to occur during rush hours (7–9 AM and 4–7 PM), especially on weekdays.
     Fridays often show higher evening collisions, likely due to increased ride demand and traffic congestion.
@@ -238,7 +238,7 @@ a:hover {
 
 <div class="comments" style="margin-bottom:5vh">
   <p>From the pie chart, we can observe that most vehicles registered as collision data are motor vehicles - primarily SUVs and sedans. For Javi on his bike, this constitutes a relatively small proportion of registered collisions. The keyword here is registered, as a significant proportion of bicycle accidents go unreported to the police[1].</p>
-  <p>According to the American Community Survey from 2017 - 2021, bicycles constituted 1.4% of the commute, whilst cars, trucks or vans constituted 26.8% of the commute [2]. With only SUVs and Sedans themselves cumulatively being 75% of all accidents in our pie chart, means that they are grossly over represented in terms of their proportion of crashes.</p>
+  <p>According to the American Community Survey from 2017 - 2021, bicycles constituted 1.4% of the commute, whilst cars, trucks or vans constituted 26.8% of the commute[2]. With only SUVs and Sedans themselves cumulatively being 75% of all accidents in our pie chart, means that they are grossly over represented in terms of their proportion of crashes.</p>
   <p>Javi explicitly mentions that he is considering other forms of transportation. What does he especially need to take into consideration when operating other vehicle types?</p>
 </div>
 
@@ -248,7 +248,7 @@ a:hover {
   <img src="/images/suvContributingFactors.png" 
        alt="SUV Contributing Factors" 
        style="width: 40vw; display: block; margin: auto; border-radius: 10px;" />
-       <p>A common theme of driver inattention and distractions seem to be standard amongst all modes of transport. Being patient by yielding when in douby and keep distance from other vehicles when driving is key with avoiding accidents in SUVs.</p>
+       <p>A common theme of driver inattention and distractions seem to be standard amongst all modes of transport. This makes sense as being on the phone or maybe adjusting the radio for even a split second can mean the difference between life or death. Being patient by yielding when in douby and keep distance from other vehicles when driving is key with avoiding accidents in SUVs.</p>
 </div>
 
 <!-- Sedan -->
@@ -338,6 +338,9 @@ a:hover {
   loading="lazy"
 ></iframe>
 
+<div class="comments">
+  <p>Our map portrays injuries as orange markers and deaths as red markers, where bigger markers indicate more incidences of either injuries or deaths. Click on each marker in order to see more information about the incident like time. The heatmap includes all bicycle incidents to supplement any findings and based on this information, we can see concentrations of incidents in Manhatten, especially around the bowery regions and the path north leading to Midtown. Javi should exercise more caution around these areas. By utilizing this map, Javi can plan routes more effectively. What other routes would you avoid if you were Javi?</p>
+</div>
 
 <div id="conclusion" style="
   margin: 8vh auto 5vh auto;
@@ -356,24 +359,12 @@ a:hover {
     color: #49111c;
     font-family: 'Playfair Display', Georgia, serif;
     letter-spacing: 0.5px;
-  ">7. Conclusion: Can Javi Make It?</h2>
+  ">7. Conclusion: What should Javi do?</h2>
   <p style="font-size: 1.2rem; color: #3d1f23; line-height: 1.6;">Summarize patterns to offer takeaways like avoiding certain hours or locations.</p>
 </div>
 
-<!--
-<div style="background-color:#f0f8ff; padding:20px; border-radius:10px; box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 40%)">
-  <h2 style="font-weight:bold;">⚠️ A Day in the Life of Javi</h2>
-  <p>
-    New York City is the city that never sleeps and no address within New York City is beyond Javi's reach!
-    Delivering food in its busy streets is dangerous, so how can we help Javi deliver food as safely as possible?
-  </p>
-</div>
--->
-
 ### References
 
-[1] https://www.sciencedirect.com/science/article/pii/S0001457517303391
+[1] Geus, B. de, et al. “Under-Reporting Bicycle Accidents to Police in the Cost TU1101 International Survey: Cross-Country Comparisons and Associated Factors.” Accident Analysis & Prevention, Pergamon, 26 Oct. 2017, www.sciencedirect.com/science/article/pii/S0001457517303391. 
 
-[2] https://a816-dohbesp.nyc.gov/IndicatorPublic/data-explorer/walking-driving-and-cycling/?id=2415#display=summary
-
-[3] Sheppard, H. (2016). *Car thefts decrease statewide*. East Bay Times. [URL](https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/)
+[2] American Community Survey. “Walking, Driving, and Cycling Data for NYC.” Environment & Health Data Portal, 2021, a816-dohbesp.nyc.gov/IndicatorPublic/data-explorer/walking-driving-and-cycling/?id=2415#display=summary. 
