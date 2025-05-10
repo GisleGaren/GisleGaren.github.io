@@ -118,11 +118,12 @@ a:hover {
     1. Introduction: Meet Javi
   </h2>
   <p style="font-size: 1.2rem; color: #3d1f23; line-height: 1.6;">
-    Javi is a delivery driver navigating the bustling streets of NYC — dodging traffic, balancing time, and facing unexpected risks every day. This section introduces his world and sets the stage for the story ahead.
+    We at Sune Analytics found this on the frontpage of this newspaper and we sympathize with his story. 
+    We decided to take matters into our own hands by analyzing traffic data in New York City to help deliver people like Javi navigate through its busy streets!
   </p>
 </div>
 
-# Add your plot here
+<img src="/images/newspaper.png" alt="Newspaper with Javi delivery guy" style="width: 35vw; display: block; margin: auto; border-radius: 10px;" />
 
 <div id="dangerous-hours" style="
   margin: 8vh auto 5vh auto;
@@ -230,7 +231,7 @@ a:hover {
   <img src="/images/sedanContributingFactors.png" 
        alt="Sedan Contributing Factors" 
        style="width: 40vw; display: block; margin: auto; border-radius: 10px;" />
-       <p>Ayy Lmao</p>
+       <p style="text-align:center;">Ayy Lmao</p>
 </div>
 
 <!-- Bicycle -->
